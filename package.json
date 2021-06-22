@@ -1,0 +1,35 @@
+{
+  "name": "wadm-js-client",
+  "version": "1.0.0",
+  "description": "Client for connecting to the REST APIs via a JS library",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "npx jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joranquinten/wadm-js-client.git"
+  },
+  "keywords": [
+    "wadm",
+    "werk aan de muur",
+    "javascript",
+    "nodejs",
+    "rest api",
+    "rest client"
+  ],
+  "author": "Joran Quinten <joran@joranquinten.nl>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joranquinten/wadm-client/issues"
+  },
+  "homepage": "https://github.com/joranquinten/wadm-client#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "dotenv": "^10.0.0"
+  },
+  "devDependencies": {
+    "axios-mock-adapter": "^1.19.0",
+    "jest": "^27.0.4"
+  }
+}
