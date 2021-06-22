@@ -1,6 +1,7 @@
 # OhMyPrints / WadM JavaScript Client
 
-This package exposes the API of [Werkaandemuur](https://www.werkaandemuur.nl/nl) via a JavaScript wrapper. It is pretty basic but should help you get started in combining data for your own use. It might also wordt for data that's exposed on [OhMyPrints](https://www.ohmyprints.com/de) (sibling company), but I haven't had a usecase nor tested it.
+This package exposes the API of [Werkaandemuur](https://www.werkaandemuur.nl/nl) via a JavaScript wrapper. It is pretty basic but should help you get started in combining data for your own use. 
+It might also work for data that's exposed on [OhMyPrints](https://www.ohmyprints.com/de) (sibling company), but I haven't had a usecase nor tested it.
 
 ## Fair use
 
@@ -75,7 +76,9 @@ async () => {
     const artworks = await client.getArtworks()
 }
 ```
+## Contributing
 
+If you want to contribute, feel free to drop me a line or open up an Issue on the repo. Then we can discuss how the change would fit in with the client.
 ## Disclaimer
 
 I am not affiliated with WadM or OhMyPrints. If the API changes, this wrapper will inevitably fail and will need some manual updating. Feel free to contribute to this repo if you like.
