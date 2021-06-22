@@ -1,6 +1,6 @@
 {
   "name": "wadm-js-client",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Client for connecting to the REST APIs via a JS library",
   "main": "./src/index.js",
   "scripts": {
